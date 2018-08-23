@@ -1,0 +1,38 @@
+.time {
+  font-size: 400%;
+  font-weight: 500;
+  margin-left: 3%;
+  margin-top: 3%;
+  display: flex;
+}
+
+.hour-min-sec {
+  margin-top: 0.5%;
+  display: flex;
+  justify-content:space-around;
+  color: rgb(143, 142, 142); 
+  font-size: 100%;
+  width: 20%;
+  margin-left: 3%;
+}
+
+
+@media only screen and (max-width: 600px) {
+ 
+  .time{
+    font-size: 150%;
+  }
+  .hour-min-sec {
+    font-size: 30%;
+    width: 25%;
+ 
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .hour-min-sec {
+    font-size: 130%;
+    width: 35%;
+ 
+  }
+}
